@@ -17,3 +17,40 @@ nav {
     max-width: 293px;
     max-height: 100px;
 }
+.navItem {
+    color: #ffffff;
+    font-family: Montserrat;
+}
+.navItem:hover {
+    color: #f5b92e;
+    text-decoration: underline;
+    transition: 0.5s ease;
+}
+#hero {
+    margin-top: 120px;
+    padding: 100px 200px;
+}
+#heroText {
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 85px;
+    line-height: 104px;
+}
+#heroButton {
+    width: fit-content;
+    height: fit-content;
+    top: 526px;
+    left: 78px;
+    border-radius: 10px;
+    padding: 17px;
+    background-color: #f5b92e;
+    color: #000000;
+    border: none;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 42px;
+}
+#heroButton:hover {
+    background-color: #fad786;
+    transition: 0.2s ease;
+}
