@@ -1,6 +1,7 @@
 body {
     background-color: #454545;
     margin: 0;
+    padding-bottom: 100px;
 }
 .pageContent {
     display: flex;
@@ -181,6 +182,7 @@ Button:hover {
     display: inline;
 }
 .oppsLabel {
+    padding-left: 100px;
     font-family: Montserrat;
     font-weight: 700;
     font-size: 32px;
@@ -247,8 +249,82 @@ Button:hover {
     order: 4;
     width: 90%;
     height: auto;
+    margin: auto;
 }
 #arcCalendar {
     width: 100%;
     height: 40em;
+}
+.calendarSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 60px;
+    gap: 5px;
+    margin: 0 50px;
+    width: 90%;
+    max-width: 1600px;
+    background: #232323;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    order: 4;
+}
+#calTitle {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 64px;
+    color: #ffffff;
+    margin: 0;
+}
+.calendar {
+    width: 100%;
+    border-spacing: 10px;
+}
+.calDayHead {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 20px;
+    color: #f5b92e;
+    border-bottom: 1px solid #f5b92e;
+    font-variant: small-caps;
+}
+.calDay {
+    width: 195px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 14px;
+    vertical-align: top;
+    font-family: Montserrat;
+    font-weight: 550;
+    font-size: 20px;
+    color: #b3b3b3;
+    border-top: 1px solid #b3b3b3;
+}
+.calOut {
+    border-color: #5a5a5a;
+    color: #5a5a5a;
+}
+.calTopRow {
+    border: none;
+}
+.calEvents {
+    margin: 0;
+    padding: 10px 0;
+}
+.calItem {
+    width: 100%;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    background-color: rgba(245, 185, 46, 0.13);
+    color:#f5b92e;
+    cursor: pointer;
+    transition: 0.2s ease;
+    padding-left: 5px;
+    border-left: 1px solid rgba(245, 185, 46, 0.4);
+}
+.calItem:hover {
+    background-color: rgba(245, 185, 46, 0.2);
 }
