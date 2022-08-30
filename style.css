@@ -45,6 +45,7 @@ nav {
     font-weight: 500;
     font-size: 20px;
     cursor: pointer;
+    padding: 20px;
 }
 .navItem:hover {
     color: #f5b92e;
